@@ -29,7 +29,7 @@ h1,h2,h3,h4,h5,h6,
 }
 
 img {
-    width: 100%;
+    width: 80%;
 }
 
 a {
@@ -173,7 +173,7 @@ a:hover {
 
 .intro {margin-bottom: 36px;
 text-align: center;}
-.intro h1{color: #f702c2;font-size: 65px;}
+.intro h1{color: --;}
 .bag {
     background-color: #ff4d29;
     height: 2px;
@@ -251,7 +251,7 @@ text-align: center;}
 
 
 footer {
-    background-color: #8cec9c;
+    background-color: var(--brand);
 }
 
 footer .footer-top {
@@ -270,18 +270,15 @@ footer .navbar-brand {
 }
 
 footer p {
-    color: #000;
+    color: #fff;
     font-weight: bold;
 }
 .apft a{
     text-decoration: none;
-    color: #ADB3B9;
+    
     font-weight: bold;
 }
-footer span{
-    color: #ADB3B9;
-    font-weight: bold;
-}
+
 
 footer .social-icons a {
     width: 50px;
@@ -555,14 +552,14 @@ margin-top: 50px;
 /* statergy */
 
 .bagstar{
-    background-color: var(--brand);
+    background-color: #fff;
     padding-bottom: 70px;
 }
 .stcircle{
     width: 200px;
     min-height: 200px;
     border-radius: 50%;
-    background-color: #11f023;
+    background-color: rgb(252, 105, 7);
     padding: 5px;
     justify-content: center;
     margin: auto;
@@ -579,20 +576,20 @@ margin-top: 50px;
     float: left;
     width: 100px;
     margin-top: 30px;
-    color: yellow;
+    color: rgb(252, 105, 7);
 }
 .sthed{
     font-size: 65px;
   position: relative;
   margin-top: 30%;
   margin-left: 200px;
-  color: #fff;
+  color: #000;
   
 }
 .strtext{
     margin: auto;
     margin-top: 30%;
-    color: #fff;
+    color: #000;
     
 }
 .strtext p{
@@ -629,6 +626,7 @@ margin-top: 50px;
     justify-content: center; 
     padding: 0 35px; 
     margin-top: 30px;
+    
      
 } 
 .wrapper { 
@@ -761,13 +759,13 @@ margin-top: 50px;
     color: var(--brand);
 }
 .apft p a{
-    color: #000;
+    color: #fff;
 }
 .apft span a{
-    color: #000;
+    color: #fff;
 }
 .apft span {
-    color: #000;
+    color: #fff;
 }
 .padlr{
     padding: 0 240px;
@@ -786,3 +784,5 @@ margin-top: 50px;
     margin-top: 30px;
     font-size: 25px;
 }
+
+/* iqra css */
